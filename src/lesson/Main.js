@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import {SafeAreaView, View, Text, StyleSheet, TouchableOpacity, Alert} from 'react-native';
+
+
 import MyButton from'./components/Button'
 import InputPanel from './components/inputPanel'
+
+
 const App = () => {
     const[username,setUserName]=useState('');
     function sayHello(){
@@ -19,7 +23,7 @@ const App = () => {
         <InputPanel
             sendText={myValue => {setUserName(myValue)}}   
         />
-        
+        <Text>{username}</Text>
     </SafeAreaView>
   );
 };
@@ -28,5 +32,4 @@ export default App;
 const myStyles = StyleSheet.create({
  
 });
-//Parent ten child e attribute vasıtası ile gönder. child de props.atribute ile yakala..
-// Child den parent a props.fonksiyonismi(göndermek istediğin değer) ile gönder,  fonksiyon ismini attribute olarak yakala-kullan..
+

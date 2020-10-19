@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
                 source={{ uri: product.imgURL }}
                 style={styles.image}
             />
-            <View style={{ flex: 1, justifyContent: 'space-between' }}>
+            <View style={{ flex: 1, justifyContent: 'space-around' }}>
                 <Text>{product.title}</Text>
                 <Text style={{ fontWeight: 'bold' }}>{product.price}</Text>
             </View>
@@ -33,6 +33,6 @@ const styles = StyleSheet.create({
     },
     image: {
         height: Dimensions.get('window').height / 4,
-        resizeMode: 'contain'
+        resizeMode: 'contain' //resim kutu icine sigdirmak icin
     }
 })

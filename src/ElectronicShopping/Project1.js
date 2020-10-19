@@ -1,17 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import { SafeAreaView, View, Text, FlatList, StyleSheet, Alert, TextInput } from 'react-native';
-import proudctData from './product_data.json'
-import { ProductCard } from './components'
+
+import prouductData from './components/product_data.json';
+import { ProductCard } from './components';
+
 const App = () => {
     const [searchValue, setSearchValue] = useState("");
     const [displayList, setDisplayList] = useState([])
     const renderListItem = ({ item }) => <ProductCard product={item} />
     useEffect(() => {
         // Alert.alert("Clarushop", "Hoşgeldiniz, keyifli alışverişler..");
-        setDisplayList(proudctData)
+        // ilk acilista tum urunleri gostermek icin
+        setDisplayList(prouductData)
     }, [])
     useEffect(() => {
-        const filteredValue = proudctData.filter(item => {
+        const filteredValue = prouductData.filter(item => {
             const text = searchValue.toUpperCase();
             const productTitle = item.title.toUpperCase();
             return productTitle.indexOf(text) > -1;
