@@ -6,13 +6,14 @@ import { ProductCard } from './components';
 
 const App = () => {
     const [searchValue, setSearchValue] = useState("");
-    const [displayList, setDisplayList] = useState([])
-    const renderListItem = ({ item }) => <ProductCard product={item} />
+    const [displayList, setDisplayList] = useState([]);
+    const renderListItem = ({ item }) => <ProductCard product={item} /> //return each value with item in list
     useEffect(() => {
         // Alert.alert("Clarushop", "Hoşgeldiniz, keyifli alışverişler..");
         // ilk acilista tum urunleri gostermek icin
         setDisplayList(prouductData)
-    }, [])
+    }, []) //bos iken tum data yukle
+    //urunleri filtreleme
     useEffect(() => {
         const filteredValue = prouductData.filter(item => {
             const text = searchValue.toUpperCase();
@@ -20,19 +21,19 @@ const App = () => {
             return productTitle.indexOf(text) > -1;
         })
         setDisplayList(filteredValue)
-    }, [searchValue])
+    }, [searchValue]) //searchValue deger aldiginda calis demek
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <View style={{ flex: 1 }}>
-                <Text style={styles.banner}>Clarushop</Text>
+                <Text style={styles.banner}>Yusuf Shopping</Text>
                 <View style={styles.searchBar}>
-                    <TextInput
-                        placeholder="Ürün ara..."
+                    <TextInput style={{textAlign:'center',fontWeight:'bold'}}
+                        placeholder="Search items..."
                         onChangeText={(value) => setSearchValue(value)}
                     />
                 </View>
                 <FlatList
-                    keyExtractor={(_, index) => index.toString()}
+                    keyExtractor={(_, index) => index.toString()} // _ item
                     data={displayList}
                     renderItem={renderListItem}
                     numColumns={2}

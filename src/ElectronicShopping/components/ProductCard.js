@@ -12,11 +12,12 @@ const ProductCard = ({ product }) => {
         <View style={styles.container}>
             <Image
                 source={{ uri: product.imgURL }}
-                style={styles.image}
+                style={[product.inStock ? styles.image:styles.image1]}
             />
             <View style={{ flex: 1, justifyContent: 'space-around' }}>
                 <Text>{product.title}</Text>
                 <Text style={{ fontWeight: 'bold' }}>{product.price}</Text>
+                <Text style={{color:'red',fontWeight:'bold'}}>{product.inStock ? null :'sold out' }</Text>
             </View>
         </View>
     )
@@ -25,7 +26,7 @@ export { ProductCard }
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        borderWidth: 1,
+        borderWidth: 3,
         padding: 10,
         margin: 5,
         borderRadius: 10,
@@ -33,6 +34,12 @@ const styles = StyleSheet.create({
     },
     image: {
         height: Dimensions.get('window').height / 4,
-        resizeMode: 'contain' //resim kutu icine sigdirmak icin
+        resizeMode: 'contain', //resim kutu icine sigdirmak icin
+    },
+    image1:{
+     height: Dimensions.get('window').height / 4,
+     resizeMode: 'contain',
+     opacity:0.5,
     }
+
 })
