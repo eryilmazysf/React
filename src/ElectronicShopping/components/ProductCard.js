@@ -34,12 +34,12 @@ const styles = StyleSheet.create({
     },
     image: {
         height: Dimensions.get('window').height / 4,
-        resizeMode: 'contain', //resim kutu icine sigdirmak icin
+        resizeMode: 'contain', //resim kutu icine sigdirmak icin orantili olmasi icin
     },
     image1:{
      height: Dimensions.get('window').height / 4,
      resizeMode: 'contain',
-     opacity:0.5,
+     opacity:0.3,
     }
 
 })
