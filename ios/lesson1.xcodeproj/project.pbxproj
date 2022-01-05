@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* lesson1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* lesson1Tests.m */; };
+		10202863EF33ECE91E33BF66 /* libPods-lesson1-lesson1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 335246F1D4A56F36E8711333 /* libPods-lesson1-lesson1Tests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -15,11 +16,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* lesson1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* lesson1Tests.m */; };
-		34FFF0C162CEC6C6EEF98D1C /* libPods-lesson1-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC2282A313D5CBD2978FFBB /* libPods-lesson1-tvOS.a */; };
-		6A620F3E6A2ECF171539BA3D /* libPods-lesson1-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE566D168722A68E3C67AC7 /* libPods-lesson1-tvOSTests.a */; };
+		53DDE41A72AF32B9FF68E175 /* libPods-lesson1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C829C2EE4E109B2CF37CCEF2 /* libPods-lesson1.a */; };
+		7548435FBFBF84DD73E538E6 /* libPods-lesson1-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC2282A313D5CBD2978FFBB /* libPods-lesson1-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E21F30796A38E74F2BB40BA0 /* libPods-lesson1-lesson1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 335246F1D4A56F36E8711333 /* libPods-lesson1-lesson1Tests.a */; };
-		E535F42C10B06F4252BB30F0 /* libPods-lesson1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C829C2EE4E109B2CF37CCEF2 /* libPods-lesson1.a */; };
+		8DF77FCC4F1EF920E87ECE4B /* libPods-lesson1-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE566D168722A68E3C67AC7 /* libPods-lesson1-tvOSTests.a */; };
+		CCDAA8B5277E34E200A05A41 /* libYogaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDAA8B4277E34E200A05A41 /* libYogaKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		CC1146D0252F77E500F4DD80 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		CC1146D1252F77E500F4DD80 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		CC1146D2252F77E500F4DD80 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		CCDAA8B4277E34E200A05A41 /* libYogaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE2AC60A4065B36F5700D6C /* Pods-lesson1-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lesson1-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-lesson1-tvOSTests/Pods-lesson1-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21F30796A38E74F2BB40BA0 /* libPods-lesson1-lesson1Tests.a in Frameworks */,
+				10202863EF33ECE91E33BF66 /* libPods-lesson1-lesson1Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E535F42C10B06F4252BB30F0 /* libPods-lesson1.a in Frameworks */,
+				CCDAA8B5277E34E200A05A41 /* libYogaKit.a in Frameworks */,
+				53DDE41A72AF32B9FF68E175 /* libPods-lesson1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34FFF0C162CEC6C6EEF98D1C /* libPods-lesson1-tvOS.a in Frameworks */,
+				7548435FBFBF84DD73E538E6 /* libPods-lesson1-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A620F3E6A2ECF171539BA3D /* libPods-lesson1-tvOSTests.a in Frameworks */,
+				8DF77FCC4F1EF920E87ECE4B /* libPods-lesson1-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +159,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCDAA8B4277E34E200A05A41 /* libYogaKit.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				C829C2EE4E109B2CF37CCEF2 /* libPods-lesson1.a */,
@@ -249,6 +253,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				82203AD342B2D879207EE1D3 /* [CP] Copy Pods Resources */,
+				946FCB927B99D980F476B9CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +276,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				D49E6EE80820C8EC10F344B2 /* [CP] Copy Pods Resources */,
+				3B53EF63AABFFBC5937C7569 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,7 +332,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -478,6 +484,26 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		3B53EF63AABFFBC5937C7569 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lesson1/Pods-lesson1-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lesson1/Pods-lesson1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		82203AD342B2D879207EE1D3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,6 +574,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946FCB927B99D980F476B9CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lesson1-lesson1Tests/Pods-lesson1-lesson1Tests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lesson1-lesson1Tests/Pods-lesson1-lesson1Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C039C38DB27223A2FB23C6CD /* [CP] Check Pods Manifest.lock */ = {
@@ -773,11 +819,6 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = lesson1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.lesson;
 				PRODUCT_NAME = lesson1;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -796,11 +837,6 @@
 				DEVELOPMENT_TEAM = VSVY63C473;
 				INFOPLIST_FILE = lesson1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.lesson;
 				PRODUCT_NAME = lesson1;
 				SWIFT_VERSION = 5.0;
@@ -970,7 +1006,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -1024,7 +1060,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
